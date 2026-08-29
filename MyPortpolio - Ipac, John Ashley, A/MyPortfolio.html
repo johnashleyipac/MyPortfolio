@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+    <header class="header">
+        <a class="logo">J.A.I.</a>
+        <h2>My Portfolio</h2>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Hobbies">Hobbies</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, It's Me</h3>
+            <h1>John Ashley Ipac</h1>
+            <h3>And I'm a Frontend Developer</h3>
+            <p>Please hold your breath as we dive into <br> a world full of creativity with Student John Ashley</p>
+            <a href="#home" class="button">Explore more</a>
+        </div>
+        <div class="home-img">
+            <img alt="Profile2" src="Images/Profile2.png">
+        </div>
+    </section>
+    
+    <section class="about" id="about">
+        <div class="about-img">
+            <img alt="Profile2" src="Images/Profile2.png">
+        </div>
+        <div class="about-content">
+            <h2>About Me</h2>
+            <h3>Frontend Developer</h3>
+            <p>Hello, I am John Ashley Ipac Poor, Simple, Not Smart Guy and my nickname is (Jashley). 
+              I am a Computer Science student - Fourth-year in St Rose College Educational Foundation, Inc. I live in Canada, 
+              Abbotsford. I am ambitious and have many goals. I work in many fields until I found my specialty, 
+               which is eating so much food. I have a talent for walking and running. In addition, as 
+               a freelance eater, I have a certificate from the Guinness World Record for the fastest 
+               eating burger in under a minute. I graduated senior high school and elementary education 
+               at St. Rose Catholic School Inc. and currently studying Computer Science at St. Rose College
+                Educational Foundation Inc.</p>
+            <a href="#about" class="button">Read more</a>
+        </div>
+    </section>
+
+    
+    <section class="works2" id="Hobbies">
+        <h2 class="heading">My Hobbies & Interests</h2>
+        <div class="containerimg">
+
+            <div class="box"><img src="Images/Hob1.png" alt="Hobby 1">Watching Interesting Videos</div>
+            <div class="box"><img src="Images/Hob2.png" alt="Hobby 2">Travel</div>
+            <div class="box"><img src="Images/Hob3.png" alt="Hobby 3">Cleaning</div>
+            <div class="box"><img src="Images/Hob4.png" alt="Hobby 4">Business</div>
+            <div class="box"><img src="Images/Hob5.png" alt="Hobby 5">RPG Games</div>
+            <div class="box"><img src="Images/Hob6.png" alt="Hobby 6">Workout & Cardio</div>
+            
+           
+
+        </div>
+    </section>
+
+    <section class="services" id="services">
+        <h1 class="heading">My Skills</h1>
+        <div class="services-container">
+            <div class="services-box">
+                <h3>HTML</h3>
+                <p>Hypertext Markup Language is the standard markup language for documents designed to be displayed in a web browser. It defines the content and structure of web content. It is often assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.</p>
+                <a href="#services" class="button1">Read more</a>
+            </div>
+            <div class="services-box">
+                <h3>CSS</h3>
+                <p>Cascading Style Sheets is a style sheet language used for specifying the presentation and styling of a document written in a markup language, such as HTML or XML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.</p>
+                <a href="#services" class="button1">Read more</a>
+            </div>
+            <div class="services-box">
+                <h3>JAVASCRIPT</h3>
+                <p>JavaScript (JS) is a versatile, high-level, and dynamically typed programming language that powers the interactivity of the modern web. Alongside HTML and CSS, it is a core technology of the World Wide Web, running natively inside all major web browsers.</p>
+                <a href="#services" class="button1">Read more</a>
+            </div>
+        </div>
+    </section>
+
+        <section class="works" id="projects">
+        <h2 class="heading">My Projects <span>Frontend Developer</span></h2>
+        <div class="containerimg">
+
+            <div class="box"><img src="Images/Work1.1.png" alt="Work 0">Simple Website</div>
+            <div class="box"><img src="Images/Work2.2.png" alt="Work 7">Simple Portfolio</div>
+            <div class="box"><img src="Images/Work3.3.png" alt="Work 8">Examination</div>
+            <div class="box"><img src="Images/Work6.6.png" alt="Work 4">Activity #5</div>
+            <div class="box"><img src="Images/Work5.5.png" alt="Work 5">Activity #4</div>
+            <div class="box"><img src="Images/Work4.4.png" alt="Work 6">Activity #3</div>
+            <div class="box"><img src="Images/Work8.8.png" alt="Work 3">Activity #2</div>
+            <div class="box"><img src="Images/Work7.7.png" alt="Work 2">Activity #1</div>
+            <div class="box"><img src="Images/Work0.0.png" alt="Work 1">Activity #0</div>
+            
+        </div>
+    </section>
+    
+    <section class="contact" id="contact">
+        <div class="contactinsidecontainer">
+            <h1>Contact Me</h1>
+            <form>
+                <label>First Name</label><br>
+                <input class="contactinput" type="text" name="firstname" placeholder="Enter your Name" required><br>
+                <label>Last Name</label><br>
+                <input class="contactinput" type="text" name="lastname" placeholder="Enter your Last Name" required><br>
+                <label>Phone Number</label><br>
+                <input class="contactinput" type="number" name="phonenumber" placeholder="Ex. +63xxxxxxxxx" required><br>
+                <label>Date and Time</label><br>
+                <input type="datetime-local" name="dateandtime" class="contactinput" required><br>
+                <label>Subject</label><br>
+                <textarea name="message" placeholder="Enter your message" required></textarea><br>
+                <button type="button" class="contactbutton">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+<footer class="footer">
+    <p>@2026 John Ashley Ipac. All rights reserved</p>
+</footer>
+
+
+</body>
+</html>
